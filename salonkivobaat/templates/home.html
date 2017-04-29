@@ -1,0 +1,86 @@
+<div class="container" id="home">
+   <div class="row">
+      <div class="col-sm-9 ">
+         <div class="col1">
+            <img ng-src={{homeCtrl.imgurl}} class=" img-thumbnail images" id="imagesslides"></img>
+         </div>
+      </div>
+      <div class="col-sm-3">
+         <div class="col2">
+            <div class="row">
+               <div class="col-sm-12 ">
+                  <div class="rightrow">
+                     <div class="inner" id="chat" ng-click="homeCtrl.open_chatbox()">
+                        <div class="middel" >
+                           <h4><b>Send Message</b></h4>
+                           <p>we are waiting for your message</p>
+                            
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-sm-12 ">
+                  <div class="rightrow">
+                    <div class="inner" id="chat" ng-click="homeCtrl.open_FileUpload()">
+                        <div class="middel" >
+                           <h4><b>Upload</b></h4>
+                           <p>click here to Upload and save your photo and file</p>
+                            
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-sm-12 ">
+                  <div class="rightrow">
+                     <div class="inner">
+                        <div class="middel">
+                           <h4><b>Send Message<b></h4>
+                           <p>we are waiting for your message</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-sm-12 ">
+                  <div class="rightrow">
+                     <div class="inner">
+                        <div class="middel">
+                           <h4>Send Message</h4>
+                           <p>we are waiting for your message</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+    <div id="chatBox" >
+        <div ng-click="homeCtrl.closeChat()" id="close">X</div> 
+       
+        <form action="javascript:void(0);">
+            <label for="inputEmail">HI!! send your Message</label>
+            <textarea class="form-control" rows="6" id="message"></textarea>
+            <div class="sendmessagebtn">
+               <button type="button" class="btn btn-primary btn-block" id="btn1" ng-click="homeCtrl.sendmessage()">Send</button>
+            </div>
+        </form>
+    </div>
+    <div id="FileUploadBox" >
+        <div ng-click="homeCtrl.closeFileUpload()" id="closefile">X</div> 
+        <div>
+        <form action="javascript:void(0);">
+            <label for="inputEmail">Upload Image</label>
+            <input class="form-control" type="file" id="file" name="file"/>
+            <div class="sendFilebtn">
+               <button type="button" class="btn btn-primary btn-block" id="btn2" ng-click="homeCtrl.UploadFile()">Upload</button>
+            </div>
+        </form>
+    </div>
+    </div>
+</div>

@@ -1,0 +1,170 @@
+{ 
+ "question":[
+        {
+            "type": "text",
+            "text": "These are the features present in IPv4 but not in IPv6?",
+            "possibilities": [
+                {
+                    "answer": "Fragmentation"
+                },
+                {
+                    "answer": "Header checksum"
+                },
+                {
+                    "answer": "Options"
+                },
+                {
+                    "answer": "All of the mentioned"
+                },
+                {
+                    "answer": "None of the above"
+                }
+            ],
+            "selected": null,
+            "correct": null,
+            "answer": 3
+        },
+        {
+            "type": "text",
+            "text": "The size of IP address in IPv6 is?",
+            "possibilities": [
+                {
+                    "answer": "4bytes"
+                },
+                {
+                    "answer": "128bits"
+                },
+                {
+                    "answer": "8bytes"
+                },
+                {
+                    "answer": "100bits"
+                },
+                {
+                    "answer": "64 bits"
+                }
+            ],
+            "selected": null,
+            "correct": null,
+            "answer": 1
+        },
+        {
+            "type": "text",
+            "text": "Main memory works in conjunction with _________.?'",
+            "possibilities": [
+                {
+                    "answer": "special function cards"
+                },
+                {
+                    "answer": "RAM"
+                },
+                {
+                    "answer": "CPU"
+                },
+                {
+                    "answer": "Intel"
+                },
+                {
+                    "answer": "All of the above"
+                }
+            ],
+            "selected": null,
+            "correct": null,
+            "answer": 2
+        },
+        {
+            "type": "text",
+            "text": "Codec refers to _____?",
+            "possibilities": [
+                {
+                    "answer": "Coder-decoder"
+                },
+                {
+                    "answer": "Co-declaration"
+                },
+                {
+                    "answer": "Command declaration"
+                },
+                {
+                    "answer": "Command decoding"
+                },
+                {
+                    "answer": "None of the above"
+                }
+            ],
+            "selected": null,
+            "correct": null,
+            "answer": 0
+        },
+        {
+            "type": "text",
+            "text": "The smallest unit of information, a computer can understand and process is known as ________.",
+            "possibilities": [
+                {
+                    "answer": "Digit"
+                },
+                {
+                    "answer": "Byte"
+                },
+                {
+                    "answer": "Megabyte"
+                },
+                {
+                    "answer": "Bit"
+                }
+            ],
+            "selected": null,
+            "correct": null,
+            "answer": 3
+        },
+        
+        {
+            "type": "text",
+            "text": "IBM was provided software for PC DOS by which of the following company?",
+            "possibilities": [
+                {
+                    "answer": "Microsoft"
+                },
+                {
+                    "answer": "Sony "
+                },
+                {
+                    "answer": "Google"
+                },
+                {
+                    "answer": "Apple"
+                },
+                {
+                    "answer": "None of the above"
+                }
+            ],
+            "selected": null,
+            "correct": null,
+            "answer": 0
+        },
+        {
+            "type": "text",
+            "text": "Which of the following was used to program the first computer?",
+            "possibilities": [
+                {
+                    "answer": "Assembly language "
+                },
+                {
+                    "answer": "Machine language"
+                },
+                {
+                    "answer": "Source code"
+                },
+                {
+                    "answer": "Object code"
+                },
+                {
+                    "answer": "ASCII code"
+                }
+            ],
+            "selected": null,
+            "correct": null,
+            "answer": 1
+        }
+    ]
+}

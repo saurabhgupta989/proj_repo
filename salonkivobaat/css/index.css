@@ -1,0 +1,40 @@
+body{
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-size: 15px;
+	
+	
+}
+.brand{
+	
+	border-radius: 1px 40px;
+	box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
+}
+.header{
+	background-color: #1bbc9b;
+	
+	border-bottom: 1px solid #3b5998;
+}
+
+.mainview{
+	min-height: 85%;
+}
+.menubtn{
+	border-radius: 10px 20px;
+ box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
+}
+.mylist li a{
+	margin-top: 10px;
+	position: relative;
+	color: #fff;
+	
+ 
+ border-radius: 40px 40px;
+ box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
+	}
+.mylist li a:hover{
+	
+	background-color: #f6821f;
+border-radius: 1px 40px;
+	box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
+	}
